@@ -1,0 +1,6 @@
+docker-lua:
+  build: .
+  environment:
+    - LUA_PATH=/app/src/?.lua
+  volumes:
+    - .:/app
